@@ -2,7 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="dlib-tutorial" targetName="video_capture" />
       <config projectName="dlib-tutorial" targetName="face_recognize" />
+      <config projectName="dlib-tutorial" targetName="face_detect" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,1048 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f77d25-dd38-4e32-8485-b65b40ed79a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/algs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_decision_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_decision_function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_function_impl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_function_impl2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/any/any_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array/array_kernel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array/array_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array/array_tools.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array/array_tools_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array2d.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array2d/array2d_generic_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array2d/array2d_kernel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array2d/array2d_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/array2d/serialize_pixel_overloads.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/assert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/base64.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/base64/base64_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/base64/base64_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bayes_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bayes_utils/bayes_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bayes_utils/bayes_utils_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bigint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bigint/bigint_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bigint/bigint_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bigint/bigint_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bigint/bigint_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/binary_search_tree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/binary_search_tree/binary_search_tree_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/binary_search_tree/binary_search_tree_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/binary_search_tree/binary_search_tree_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/binary_search_tree/binary_search_tree_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bit_stream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bit_stream/bit_stream_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bit_stream/bit_stream_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bit_stream/bit_stream_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bit_stream/bit_stream_multi_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bit_stream/bit_stream_multi_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bit_stream/bit_stream_multi_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bits/c++config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bound_function_pointer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bound_function_pointer/bound_function_pointer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bound_function_pointer/bound_function_pointer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bridge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bridge/bridge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bridge/bridge_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bsp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bsp/bsp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/bsp/bsp_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/byte_orderer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/byte_orderer/byte_orderer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/byte_orderer/byte_orderer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cassert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering/bottom_up_cluster.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering/bottom_up_cluster_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering/chinese_whispers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering/chinese_whispers_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering/modularity_clustering.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering/modularity_clustering_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering/spectral_cluster.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/clustering/spectral_cluster_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/add_global_compiler_switch.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/check_if_avx_instructions_executable_on_host.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/check_if_neon_available.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/check_if_sse4_instructions_executable_on_host.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/find_blas.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/find_libjpeg.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/find_libpng.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/set_compiler_specific_options.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/tell_visual_studio_to_use_static_runtime.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmake_utils/use_cpp_11.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser/cmd_line_parser_check_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser/cmd_line_parser_check_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser/cmd_line_parser_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser/cmd_line_parser_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser/cmd_line_parser_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser/cmd_line_parser_print_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser/get_option.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cmd_line_parser/get_option_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/compress_stream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/compress_stream/compress_stream_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/compress_stream/compress_stream_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/compress_stream/compress_stream_kernel_3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/compress_stream/compress_stream_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/conditioning_class.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/conditioning_class/conditioning_class_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/conditioning_class/conditioning_class_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/conditioning_class/conditioning_class_kernel_3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/conditioning_class/conditioning_class_kernel_4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/conditioning_class/conditioning_class_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/conditioning_class/conditioning_class_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/config_reader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/config_reader/config_reader_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/config_reader/config_reader_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/config_reader/config_reader_thread_safe_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/config_reader/config_reader_thread_safe_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/console_progress_indicator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/control.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/control/approximate_linear_models.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/control/approximate_linear_models_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/control/lspi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/control/lspi_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/control/mpc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/control/mpc_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cpp_pretty_printer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cpp_pretty_printer/cpp_pretty_printer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cpp_pretty_printer/cpp_pretty_printer_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cpp_pretty_printer/cpp_pretty_printer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cpp_tokenizer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cpp_tokenizer/cpp_tokenizer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cpp_tokenizer/cpp_tokenizer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cpp_tokenizer/cpp_tokenizer_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/crc32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/crc32/crc32_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/crc32/crc32_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cstring" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/cpu_dlib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/cublas_dlibapi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/cuda_data_ptr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/cuda_dlib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/cuda_errors.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/cuda_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/cudnn_dlibapi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/curand_dlibapi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/cusolver_dlibapi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/gpu_data.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/gpu_data_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/tensor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/tensor_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/cuda/tensor_tools.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/data_io.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/data_io/image_dataset_metadata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/data_io/libsvm_io.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/data_io/libsvm_io_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/data_io/load_image_dataset.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/data_io/load_image_dataset_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/data_io/mnist.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/data_io/mnist_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dir_nav.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dir_nav/dir_nav_extensions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dir_nav/dir_nav_extensions_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dir_nav/dir_nav_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dir_nav/dir_nav_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dir_nav/dir_nav_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dir_nav/posix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dir_nav/windows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/directed_graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/directed_graph/directed_graph_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/directed_graph/directed_graph_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/disjoint_subsets.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/disjoint_subsets/disjoint_subsets.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/disjoint_subsets/disjoint_subsets_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/disjoint_subsets/disjoint_subsets_sized.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/disjoint_subsets/disjoint_subsets_sized_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dlib_basic_cpp_build_tutorial.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dlib_include_path_tutorial.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/core.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/core_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/input.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/input_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/layers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/layers_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/loss.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/loss_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/solvers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/solvers_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/utilities.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/utilities_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/dnn/validation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/enable_if.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder/entropy_decoder_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder/entropy_decoder_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder/entropy_decoder_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder/entropy_decoder_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder_model.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder_model/entropy_decoder_model_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder_model/entropy_decoder_model_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder_model/entropy_decoder_model_kernel_3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder_model/entropy_decoder_model_kernel_4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder_model/entropy_decoder_model_kernel_5.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder_model/entropy_decoder_model_kernel_6.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_decoder_model/entropy_decoder_model_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder/entropy_encoder_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder/entropy_encoder_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder/entropy_encoder_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder/entropy_encoder_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model/entropy_encoder_model_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model/entropy_encoder_model_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model/entropy_encoder_model_kernel_3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model/entropy_encoder_model_kernel_4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model/entropy_encoder_model_kernel_5.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model/entropy_encoder_model_kernel_6.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model/entropy_encoder_model_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/entropy_encoder_model/entropy_encoder_model_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/error.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/cblas/cblas.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/cblas/cblas_f77.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/cderror.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/cdjpeg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jconfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jdct.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jerror.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jinclude.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jmemsys.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jmorecfg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jpegint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jpeglib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/jversion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libjpeg/transupp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libpng/png.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libpng/pngconf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libpng/pngdebug.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libpng/pnginfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libpng/pnglibconf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libpng/pngpriv.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/libpng/pngstruct.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/attr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/buffer_info.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/cast.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/chrono.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/complex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/detail/class.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/detail/common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/detail/descr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/detail/init.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/detail/internals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/detail/typeid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/eigen.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/embed.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/eval.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/functional.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/iostream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/numpy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/operators.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/options.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/pybind11.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/pytypes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/stl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/include/pybind11/stl_bind.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/tools/FindCatch.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/tools/FindEigen3.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/tools/FindPythonLibsNew.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/pybind11/tools/pybind11Tools.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/crc32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/deflate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/gzguts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/inffast.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/inffixed.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/inflate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/inftrees.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/trees.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/zconf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/zlib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/external/zlib/zutil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/filtering.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/filtering/kalman_filter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/filtering/kalman_filter_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/filtering/rls_filter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/filtering/rls_filter_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/float_details.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/fstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/count_bits.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/count_bits_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/general_hash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/hash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/hash_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/murmur_hash3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/murmur_hash3_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/random_hashing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/general_hash/random_hashing_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/border_enumerator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/border_enumerator_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/drectangle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/drectangle_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/line.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/line_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/point_transforms.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/point_transforms_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/rectangle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/rectangle_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/vector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/geometry/vector_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/global_optimization.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/global_optimization/find_max_global.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/global_optimization/find_max_global_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/global_optimization/global_function_search.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/global_optimization/global_function_search_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/global_optimization/upper_bound_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/global_optimization/upper_bound_function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph/graph_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph/graph_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts/find_max_factor_graph_potts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts/find_max_factor_graph_potts_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts/general_flow_graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts/general_potts_problem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts/graph_labeler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts/graph_labeler_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts/min_cut.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_cuts/min_cut_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/edge_list_graphs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/edge_list_graphs_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/find_k_nearest_neighbors_lsh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/find_k_nearest_neighbors_lsh_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/function_objects.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/function_objects_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/graph_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/graph_utils_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/ordered_sample_pair.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/ordered_sample_pair_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/sample_pair.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils/sample_pair_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/graph_utils_threaded.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_core.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_core/gui_core_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_core/gui_core_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_core/gui_core_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_core/windows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_core/xlib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/base_widgets.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/base_widgets_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/canvas_drawing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/canvas_drawing_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/drawable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/drawable_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/fonts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/fonts_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/nativefont.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/style.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/style_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/widgets.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/gui_widgets/widgets_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_map.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_map/hash_map_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_map/hash_map_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_map/hash_map_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_set.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_set/hash_set_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_set/hash_set_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_set/hash_set_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_table.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_table/hash_table_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_table/hash_table_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_table/hash_table_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/hash_table/hash_table_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/http_client/http_client.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/http_client/http_client_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_io.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/binned_vector_feature_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/binned_vector_feature_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/build_separable_poly_filters.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/draw_surf_points.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/draw_surf_points_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/fine_hog_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/fine_hog_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/hashed_feature_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/hashed_feature_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/hessian_pyramid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/hessian_pyramid_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/hog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/hog_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/nearest_neighbor_feature_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/nearest_neighbor_feature_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/poly_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/poly_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/surf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_keypoint/surf_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_loader/image_loader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_loader/image_loader_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_loader/jpeg_loader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_loader/jpeg_loader_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_loader/load_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_loader/load_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_loader/png_loader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_loader/png_loader_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/box_overlap_testing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/box_overlap_testing_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/correlation_tracker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/correlation_tracker_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/detection_template_tools.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/detection_template_tools_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/frontal_face_detector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/frontal_face_detector_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/full_object_detection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/full_object_detection_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/generic_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/object_detector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/object_detector_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/remove_unobtainable_rectangles.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/remove_unobtainable_rectangles_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/render_face_detections.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/render_face_detections_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_fhog_pyramid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_fhog_pyramid_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_boxes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_boxes_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_custom.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_custom_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_pyramid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_pyramid_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_pyramid_tools.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/scan_image_pyramid_tools_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/setup_hashed_features.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/setup_hashed_features_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/shape_predictor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/shape_predictor_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/shape_predictor_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_processing/shape_predictor_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_saver/dng_shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_saver/image_saver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_saver/image_saver_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_saver/save_jpeg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_saver/save_jpeg_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_saver/save_png.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_saver/save_png_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/assign_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/assign_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/colormaps.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/colormaps_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/draw.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/draw_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/edge_detector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/edge_detector_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/equalize_histogram.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/equalize_histogram_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/fhog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/fhog_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/hough_transform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/hough_transform_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/image_pyramid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/image_pyramid_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/integral_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/integral_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/interpolation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/interpolation_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/label_connected_blobs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/label_connected_blobs_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/lbp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/lbp_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/morphological_operations.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/morphological_operations_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/random_color_transform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/random_color_transform_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/random_cropper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/random_cropper_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/segment_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/segment_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/spatial_filtering.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/spatial_filtering_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/thresholding.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/image_transforms/thresholding_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/interfaces/cmd_line_parser_option.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/interfaces/enumerable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/interfaces/map_pair.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/interfaces/remover.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/iomanip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/iosfwd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/iosockstream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/iosockstream/iosockstream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/iosockstream/iosockstream_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/iostream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/is_kind.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/istream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/java/java_array.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/java/swig_api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/linker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/linker/linker_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/linker/linker_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/locale" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/logger.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/logger/extra_logger_headers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/logger/logger_config_file.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/logger/logger_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/logger/logger_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lsh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lsh/create_random_projection_hash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lsh/create_random_projection_hash_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lsh/hashes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lsh/hashes_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lsh/projection_hash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lsh/projection_hash_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lz77_buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lz77_buffer/lz77_buffer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lz77_buffer/lz77_buffer_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lz77_buffer/lz77_buffer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lz77_buffer/lz77_buffer_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lzp_buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lzp_buffer/lzp_buffer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lzp_buffer/lzp_buffer_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lzp_buffer/lzp_buffer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/lzp_buffer/lzp_buffer_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/manifold_regularization.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/manifold_regularization/linear_manifold_regularizer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/manifold_regularization/linear_manifold_regularizer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/map.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/map/map_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/map/map_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/map/map_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matlab/call_matlab.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matlab/subprocess_stream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/cblas_constants.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/fortran_id.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/gees.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/geev.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/geqrf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/gesdd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/gesvd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/getrf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/ormqr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/pbtrf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/potrf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/syev.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/lapack/syevr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_assign.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_assign_fwd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_blas_bindings.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_cholesky.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_conj_trans.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_conv.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_conv_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_data_layout.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_data_layout_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_default_mul.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_eigenvalue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_exp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_exp_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_expressions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_fft.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_fft_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_fwd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_generic_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_la.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_la_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_lu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_mat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_mat_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_math_functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_math_functions_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_op.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_qr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_read_from_istream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_subexp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_subexp_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_trsm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_utilities.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/matrix_utilities_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/symmetric_matrix_cache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/matrix/symmetric_matrix_cache_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/md5.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/md5/md5_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/md5/md5_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/member_function_pointer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/member_function_pointer/make_mfp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/member_function_pointer/make_mfp_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/member_function_pointer/member_function_pointer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/member_function_pointer/member_function_pointer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager/memory_manager_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager/memory_manager_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager/memory_manager_kernel_3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager/memory_manager_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager_global.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager_global/memory_manager_global_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager_global/memory_manager_global_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager_stateless.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager_stateless/memory_manager_stateless_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager_stateless/memory_manager_stateless_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/memory_manager_stateless/memory_manager_stateless_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/metaprogramming.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/misc_api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/misc_api/misc_api_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/misc_api/misc_api_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/misc_api/misc_api_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/misc_api/misc_api_shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/misc_api/posix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/misc_api/windows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/mlp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/mlp/mlp_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/mlp/mlp_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/mlp/mlp_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/noncopyable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/numeric_constants.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/numerical_integration.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/numerical_integration/integrate_function_adapt_simpson.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/numerical_integration/integrate_function_adapt_simpson_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/opencv.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/opencv/cv_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/opencv/cv_image_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/opencv/to_open_cv.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/opencv/to_open_cv_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/elastic_net.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/elastic_net_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/find_max_factor_graph_nmplp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/find_max_factor_graph_nmplp_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/find_max_factor_graph_viterbi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/find_max_factor_graph_viterbi_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/find_max_parse_cky.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/find_max_parse_cky_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/find_optimal_parameters.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/find_optimal_parameters_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/isotonic_regression.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/isotonic_regression_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/max_cost_assignment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/max_cost_assignment_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/max_sum_submatrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/max_sum_submatrix_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_bobyqa.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_bobyqa_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_least_squares.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_least_squares_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_line_search.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_line_search_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_oca.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_oca_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_search_strategies.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_search_strategies_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_solve_qp2_using_smo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_solve_qp2_using_smo_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_solve_qp3_using_smo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_solve_qp3_using_smo_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_solve_qp_using_smo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_solve_qp_using_smo_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_stop_strategies.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_stop_strategies_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_trust_region.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/optimization/optimization_trust_region_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/ostream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/pipe.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/pipe/pipe_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/pipe/pipe_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/pixel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/platform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/python.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/python/numpy_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/python/pyassert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/python/pybind_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/python/serialize_pickle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/quantum_computing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/quantum_computing/quantum_computing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/quantum_computing/quantum_computing_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/queue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/queue/queue_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/queue/queue_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/queue/queue_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/queue/queue_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/queue/queue_sort_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/queue/queue_sort_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/rand.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/rand/mersenne_twister.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/rand/rand_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/rand/rand_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/random_forest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/random_forest/random_forest_regression.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/random_forest/random_forest_regression_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/ref.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/reference_counter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/reference_counter/reference_counter_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/reference_counter/reference_counter_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/revision.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_compare_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_compare_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_sort_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_sort_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sequence/sequence_sort_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/serialize.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/server.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/server/server_http.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/server/server_http_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/server/server_iostream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/server/server_iostream_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/server/server_kernel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/server/server_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set/set_compare_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set/set_compare_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set/set_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set/set_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set/set_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set_utils/set_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/set_utils/set_utils_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/simd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/simd/simd4f.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/simd/simd4i.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/simd/simd8f.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/simd/simd8i.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/simd/simd_check.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sliding_buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sliding_buffer/circular_buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sliding_buffer/circular_buffer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sliding_buffer/sliding_buffer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sliding_buffer/sliding_buffer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sliding_buffer/sliding_buffer_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers/scoped_ptr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers/shared_ptr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers/shared_ptr_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers/shared_ptr_thread_safe.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers/shared_ptr_thread_safe_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers/weak_ptr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers/weak_ptr_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/smart_pointers_thread_safe.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockets.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockets/posix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockets/sockets_extensions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockets/sockets_extensions_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockets/sockets_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockets/sockets_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockets/sockets_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockets/windows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockstreambuf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockstreambuf/sockstreambuf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockstreambuf/sockstreambuf_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sockstreambuf/sockstreambuf_unbuffered.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sort.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sparse_vector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sqlite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sqlite/sqlite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sqlite/sqlite_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sqlite/sqlite_tools.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sqlite/sqlite_tools_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/stack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/stack/stack_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/stack/stack_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/stack/stack_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/stack_trace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_map.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_map/static_map_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_map/static_map_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_map/static_map_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_set.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_set/static_set_compare_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_set/static_set_compare_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_set/static_set_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_set/static_set_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/static_set/static_set_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/average_precision.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/average_precision_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/cca.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/cca_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/dpca.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/dpca_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/image_feature_sampling.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/image_feature_sampling_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/lda.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/lda_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/random_subset_selector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/random_subset_selector_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/running_gradient.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/running_gradient_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/sammon.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/sammon_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/statistics.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/statistics_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/vector_normalizer_frobmetric.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/statistics/vector_normalizer_frobmetric_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/std_allocator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/stl_checked.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/stl_checked/std_vector_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/stl_checked/std_vector_c_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/string.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/string/cassert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/string/iomanip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/string/iosfwd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/string/iostream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/string/locale" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/string/string.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/string/string_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/active_learning.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/active_learning_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/assignment_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/assignment_function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/auto.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/auto_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_assignment_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_assignment_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_graph_labeling_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_graph_labeling_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_multiclass_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_multiclass_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_object_detection_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_object_detection_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_regression_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_regression_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_sequence_labeler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_sequence_labeler_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_sequence_segmenter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_sequence_segmenter_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_track_association_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/cross_validate_track_association_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/empirical_kernel_map.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/empirical_kernel_map_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/feature_ranking.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/feature_ranking_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kcentroid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kcentroid_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kcentroid_overloads.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kernel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kernel_matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kernel_matrix_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kkmeans.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/kkmeans_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/krls.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/krls_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/krr_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/krr_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/linearly_independent_subset_finder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/linearly_independent_subset_finder_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/multiclass_tools.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/multiclass_tools_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/null_df.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/null_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/null_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/num_nonnegative_weights.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/one_vs_all_decision_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/one_vs_all_decision_function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/one_vs_all_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/one_vs_all_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/one_vs_one_decision_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/one_vs_one_decision_function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/one_vs_one_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/one_vs_one_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/pegasos.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/pegasos_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/ranking_tools.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/ranking_tools_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/rbf_network.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/rbf_network_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/reduced.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/reduced_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/rls.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/rls_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/roc_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/roc_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/rr_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/rr_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/rvm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/rvm_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sequence_labeler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sequence_labeler_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sequence_segmenter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sequence_segmenter_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/simplify_linear_decision_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/simplify_linear_decision_function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sort_basis_vectors.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sort_basis_vectors_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sparse_kernel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sparse_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sparse_vector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/sparse_vector_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_assignment_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_assignment_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_graph_labeling_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_graph_labeling_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_object_detection_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_object_detection_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_sequence_labeling_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_sequence_labeling_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_sequence_segmentation_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_sequence_segmentation_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_assignment_problem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_assignment_problem_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_distributed.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_distributed_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_graph_labeling_problem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_graph_labeling_problem_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_object_detection_problem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_object_detection_problem_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_problem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_problem_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_problem_threaded.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_problem_threaded_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_sequence_labeling_problem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_svm_sequence_labeling_problem_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_track_association_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/structural_track_association_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_c_ekm_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_c_ekm_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_c_linear_dcd_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_c_linear_dcd_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_c_linear_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_c_linear_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_c_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_c_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_multiclass_linear_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_multiclass_linear_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_nu_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_nu_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_one_class_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_one_class_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_rank_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_rank_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_threaded.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svm_threaded_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svr_linear_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svr_linear_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svr_trainer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/svr_trainer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/track_association_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm/track_association_function_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/svm_threaded.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sync_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sync_extension/sync_extension_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/sync_extension/sync_extension_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/test/binary_search_tree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/test/checkerboard.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/test/cmd_line_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/test/conditioning_class.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/test/create_iris_datafile.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/test/optimization_test_functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/test/tester.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/test_for_odr_violations.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/async.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/async_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/auto_mutex_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/auto_mutex_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/auto_unlock_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/auto_unlock_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/create_new_thread_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/create_new_thread_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/multithreaded_object_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/multithreaded_object_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/parallel_for_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/parallel_for_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/posix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/read_write_mutex_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/read_write_mutex_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/rmutex_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/rmutex_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/rsignaler_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/rsignaler_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/thread_function_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/thread_function_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/thread_pool_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/thread_pool_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/thread_specific_data_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/thread_specific_data_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/threaded_object_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/threaded_object_extension_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/threads_kernel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/threads_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/threads_kernel_2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/threads_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/threads_kernel_shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/threads/windows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/time_this.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/timeout.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/timeout/timeout.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/timeout/timeout_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/timer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/timer/timer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/timer/timer_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/timer/timer_heavy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/timing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/tokenizer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/tokenizer/tokenizer_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/tokenizer/tokenizer_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/tokenizer/tokenizer_kernel_c.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/tuple.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/tuple/tuple.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/tuple/tuple_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/type_safe_union.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/type_safe_union/type_safe_union_kernel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/type_safe_union/type_safe_union_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/uintn.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/unicode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/unicode/unicode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/unicode/unicode_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/unordered_pair.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/vectorstream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/vectorstream/unserialize.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/vectorstream/unserialize_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/vectorstream/vectorstream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/vectorstream/vectorstream_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/windows_magic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/xml_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/xml_parser/xml_parser_kernel_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/xml_parser/xml_parser_kernel_abstract.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/dlib/xml_parser/xml_parser_kernel_interfaces.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/libdlib.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2007_007763.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2008_001009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2008_001322.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2008_002079.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2008_002470.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2008_002506.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2008_004176.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2008_007676.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/2009_004587.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/bald_guys.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/face/dogs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/model/dlib_face_recognition_resnet_model_v1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/model/shape_predictor_5_face_landmarks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/dnn_face_recognition_ex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/face_detect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/video_capture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1081,6 +46,9 @@
       </set>
     </option>
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="5j810oc1" />
+  </component>
   <component name="ProjectId" id="1acMzlxOsJ5yLLIzAV2PdwImUeu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -1090,9 +58,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource/face" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resource/face" />
       <recent name="$PROJECT_DIR$/source" />
@@ -1100,12 +71,27 @@
       <recent name="$PROJECT_DIR$/include" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.face_detect">
+    <configuration name="face_detect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dlib-tutorial" TARGET_NAME="face_detect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dlib-tutorial" RUN_TARGET_NAME="face_detect">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="face_recognize" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dlib-tutorial" TARGET_NAME="face_recognize" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dlib-tutorial" RUN_TARGET_NAME="face_recognize">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="video_capture" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dlib-tutorial" TARGET_NAME="video_capture" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dlib-tutorial" RUN_TARGET_NAME="video_capture">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.face_detect" />
+      <item itemvalue="CMake Application.face_recognize" />
+      <item itemvalue="CMake Application.video_capture" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -1130,6 +116,9 @@
       <option name="presentableId" value="Default" />
       <updated>1587030693214</updated>
       <workItem from="1587030696506" duration="3921000" />
+      <workItem from="1595642232484" duration="11569000" />
+      <workItem from="1595723919558" duration="6104000" />
+      <workItem from="1595771755217" duration="58000" />
     </task>
     <servers />
   </component>
@@ -1143,49 +132,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="add face_recognition" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587031112738">
+    <state width="1807" height="334" key="GridCell.Tab.0.bottom" timestamp="1595735566053">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587031112738" />
-    <state x="106" y="59" width="1769" height="974" key="CommitChangelistDialog2" timestamp="1587038184893">
+    <state width="1807" height="334" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1595735566053" />
+    <state width="1807" height="334" key="GridCell.Tab.0.center" timestamp="1595735566052">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="106" y="59" width="1769" height="974" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1587038184893" />
-    <state width="1807" height="334" key="GridCell.Tab.0.bottom" timestamp="1587037804836">
+    <state width="1807" height="334" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1595735566052" />
+    <state width="1807" height="334" key="GridCell.Tab.0.left" timestamp="1595735566052">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="334" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587037804836" />
-    <state width="1807" height="334" key="GridCell.Tab.0.center" timestamp="1587037804832">
+    <state width="1807" height="334" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1595735566052" />
+    <state width="1807" height="334" key="GridCell.Tab.0.right" timestamp="1595735566052">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="334" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587037804832" />
-    <state width="1807" height="334" key="GridCell.Tab.0.left" timestamp="1587037804829">
+    <state width="1807" height="334" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1595735566052" />
+    <state width="1807" height="334" key="GridCell.Tab.1.bottom" timestamp="1595735566053">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="334" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587037804829" />
-    <state width="1807" height="334" key="GridCell.Tab.0.right" timestamp="1587037804834">
+    <state width="1807" height="334" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1595735566053" />
+    <state width="1807" height="334" key="GridCell.Tab.1.center" timestamp="1595735566053">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="334" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587037804834" />
-    <state width="1807" height="334" key="GridCell.Tab.1.bottom" timestamp="1587037804844">
+    <state width="1807" height="334" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1595735566053" />
+    <state width="1807" height="334" key="GridCell.Tab.1.left" timestamp="1595735566053">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="334" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587037804844" />
-    <state width="1807" height="334" key="GridCell.Tab.1.center" timestamp="1587037804840">
+    <state width="1807" height="334" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1595735566053" />
+    <state width="1807" height="334" key="GridCell.Tab.1.right" timestamp="1595735566053">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="334" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587037804840" />
-    <state width="1807" height="334" key="GridCell.Tab.1.left" timestamp="1587037804838">
+    <state width="1807" height="334" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1595735566053" />
+    <state x="707" y="196" width="563" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1595727768853">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="334" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587037804838" />
-    <state width="1807" height="334" key="GridCell.Tab.1.right" timestamp="1587037804842">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="334" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587037804842" />
-    <state x="774" y="259" width="423" height="574" key="RollbackChangesDialog" timestamp="1587038104694">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="774" y="259" width="423" height="574" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587038104694" />
+    <state x="707" y="196" width="563" height="713" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1595727768853" />
   </component>
 </project>
